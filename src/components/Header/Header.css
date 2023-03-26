@@ -9,7 +9,16 @@
   align-items: center;
 }
 
+.header img {
+    padding-left: 2rem;
+}
+
 .header a {
   margin-right: 3rem;
   color: whitesmoke;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: coral;
 }
