@@ -36,3 +36,8 @@
 .addToCartBtn:hover {
   background-color: #481978;
 }
+
+.cart-icon {
+  margin-left: 1rem;
+  font-size: 1.1rem;
+}
