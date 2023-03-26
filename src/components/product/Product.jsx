@@ -6,11 +6,12 @@ const Product = (props) => {
     console.log(props.product);
 
 
- const {id} = props.product;
+ const {img, name, price, quantity, ratings, ratingsCount, seller, shipping, stock} = props.product;
 
     return (
-        <div>
-            <h2>Products: {id}</h2>
+        <div className='product'>
+            <img src={img} alt="" />
+            <h6>{name}</h6>
         </div>
     );
 };
