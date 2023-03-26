@@ -6,7 +6,9 @@ const Product = (props) => {
     console.log(props.product);
 
 
- const {img, name, price, quantity, ratings, ratingsCount, seller, shipping, stock} = props.product;
+ const {id, img, name, price, quantity, ratings, ratingsCount, seller, shipping, stock} = props.product;
+
+ const addToCart = props.addToCart;
 
     return (
         <div className='product'>
@@ -21,7 +23,7 @@ const Product = (props) => {
             <p>Ratings: {ratings} ratingsCount: {ratingsCount}</p>
             </div>
            </div>
-           <button className='addToCartBtn'>Add To Cart (CartIcon)</button>
+           <button className='addToCartBtn' onClick={()=>addToCart(id)}>Add To Cart (CartIcon)</button>
         </div>
     );
 };
