@@ -5,7 +5,7 @@ import './Product.css';
 
 const Product = (props) => {
 
-    console.log(props.product);
+    //console.log(props.product);
 
 
  const {id, img, name, price, quantity, ratings, ratingsCount, seller, shipping, stock} = props.product;

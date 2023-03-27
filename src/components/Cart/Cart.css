@@ -1,0 +1,29 @@
+.cart {
+  background-color: rebeccapurple;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+}
+.cart p {
+  font-size: 16px;
+}
+.cart p:hover {
+  color: darkorange;
+}
+.cart h4 {
+  font-size: 24px;
+}
+.cart h4:hover {
+  color: darkorange;
+}
+.cart h6 {
+  font-size: 24px;
+}
+
+.cart h6:hover {
+  color: darkorange;
+}
