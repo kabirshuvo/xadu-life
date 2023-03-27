@@ -27,3 +27,9 @@
 .cart h6:hover {
   color: darkorange;
 }
+.total {
+  color: darkorange;
+}
+.total:hover {
+  color: whitesmoke;
+}
